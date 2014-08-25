@@ -3,6 +3,10 @@ alias vi='vim'
 alias _='sudo'
 autoload -U colors && colors
 
+# SVN
+export EDITOR=vim
+export SVN_EDITOR=vim
+
 # Marks
 export MARKPATH=$HOME/.marks
 function jump { 
@@ -58,4 +62,4 @@ function lt {
 }
 
 # Add to path
-export PATH=$PATH:~/bin:~/opt/bin
+export PATH=$PATH:~/bin:~/opt/bin:.
