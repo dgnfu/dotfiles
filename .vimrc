@@ -16,7 +16,6 @@ set foldlevelstart=99
 set backspace=start,indent,eol
 set hlsearch
 
-
 " Speed up a bit
 set lazyredraw
 set ttyfast
@@ -40,7 +39,6 @@ Plugin 'scrooloose/syntastic'
 Plugin 'Raimondi/delimitMate'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'pangloss/vim-javascript'
-Plugin '29decibel/codeschool-vim-theme'
 
 call vundle#end()
 filetype plugin indent on
@@ -72,7 +70,7 @@ let g:php_sql_query = 1
 " Map bufferlist to F5
 :nnoremap <F5> :buffers<CR>:buffer<Space>
 
-colorscheme codeschool
+colorscheme monokai
 
 " Highlight trailing spaces
 :highlight ExtraWhitespace ctermbg=darkred guibg=darkred
