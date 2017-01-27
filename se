@@ -365,13 +365,22 @@ xkb_symbols "dvorakdgn" {
 
 	name[Group1]="English (UK, SE, Dvorak)";
 
-	key <AE02> { [          2,  quotedbl,  twosuperior,   NoSymbol      ] };
-	key <AE03> { [          3,  sterling,  threesuperior, NoSymbol      ] };
-	key <AD01> { [ apostrophe,  at              ] };
-	key <AD02> { [      comma,      less,     adiaeresis, Adiaeresis    ] };
-	key <AC01> { [          a,         A,          aring, Aring         ] };
-	key <AB02> { [          q,         Q,     odiaeresis, Odiaeresis    ] };	
-	key <BKSL> { [ numbersign,  asciitilde      ] };
-	key <LSGT> { [  backslash,  bar             ] };
-	key <TLDE> { [      grave,  notsign,   bar,           bar           ] };
+	key <AE01> { [		exclam, 1 ] };
+	key <AE02> { [		quotedbl, 2, twosuperior, NoSympol ] };
+	key <AE03> { [		euro, 3,	threesuperior, NoSymbol ] };
+	key <AE04> { [		dollar, 4, EuroSign ] };
+	key <AE05> { [		percent, 5 ] };
+	key <AE06> { [		asciicircum, 6, dead_circumflex, dead_circumflex ] };
+	key <AE07> { [		ampersand, 7 ] };
+	key <AE08> { [		asterisk, 8 ] };
+	key <AE09> { [		parenleft, 9, dead_grave ] };
+	key <AE10> { [		parenright, 0 ] };
+
+	key <AD01> { [ apostrophe, at	] };
+	key <AD02> { [     comma, less, adiaeresis, Adiaeresis ] };
+	key <AC01> { [ 		a,	A,	aring,	Aring ] };
+	key <AB02> { [		q,	Q,	odiaeresis, Odiaeresis ] };
+	key <BKSL> { [	numbersign,	asciitilde ] };
+	key <LSGT> { [ backslash,	bar ]};
+	key <TLDE> { [ grave,	notsign,	bar,	bar ]};
 };
