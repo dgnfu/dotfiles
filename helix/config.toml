@@ -1,0 +1,29 @@
+theme = "default"
+[editor]
+line-number = "absolute"
+color-modes = true
+text-width = 120
+rulers = [80, 120]
+end-of-line-diagnostics = "hint"
+true-color = true
+
+[editor.lsp]
+display-inlay-hints = true
+display-messages = true
+
+[editor.indent-guides]
+render = true
+character = "┊"  
+skip-levels = 1
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.soft-wrap]
+enable = true
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+other-lines = "error"
